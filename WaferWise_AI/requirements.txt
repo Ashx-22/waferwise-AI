@@ -1,0 +1,13 @@
+# Runtime dependencies. Floors are the versions this project was tested with
+# (Python 3.12); upper bounds stop at the next major release.
+# NOTE: current numpy, scipy, xgboost and shap releases require Python >= 3.12.
+streamlit>=1.67,<2
+pandas>=3.0,<4
+numpy>=2.5,<3
+scikit-learn>=1.9,<2
+xgboost>=3.4,<4
+imbalanced-learn>=0.14,<1
+shap>=0.54,<1
+matplotlib>=3.11,<4
+plotly>=7.1,<8
+joblib>=1.6,<2
